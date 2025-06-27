@@ -1,0 +1,106 @@
+{
+  "personalInfo": {
+    "fullName": "Jatin Sharma",
+    "email": "sharmajatin321456@gmail.com",
+    "phone": "87686876878",
+    "location": "San Francisco, CA",
+    "linkedIn": "linkedin.com/in/JatinSharma",
+    "website": "JatinSharma.dev"
+  },
+  "summary": "Experienced software developer with 5+ years of expertise in full-stack development. Passionate about creating scalable web applications and leading cross-functional teams.",
+  "experience": [
+    {
+      "id": "1",
+      "company": "TechCorp Inc.",
+      "position": "Senior Software Developer",
+      "startDate": "2021-03",
+      "endDate": "",
+      "current": true,
+      "description": "Led development of microservices architecture\nImplemented CI/CD pipelines\nMentored junior developers",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "2",
+      "company": "StartupXYZ",
+      "position": "Full Stack Developer",
+      "startDate": "2019-06",
+      "endDate": "2021-02",
+      "current": false,
+      "description": "Built responsive web applications using React and Node.js\nIntegrated third-party APIs\nOptimized database performance",
+      "location": "Remote"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "startDate": "2015-08",
+      "endDate": "2019-05",
+      "gpa": "3.8",
+      "honors": "Magna Cum Laude"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "name": "JavaScript",
+      "level": "Expert",
+      "category": "Programming"
+    },
+    {
+      "id": "2",
+      "name": "React",
+      "level": "Expert",
+      "category": "Frontend"
+    },
+    {
+      "id": "3",
+      "name": "Node.js",
+      "level": "Advanced",
+      "category": "Backend"
+    },
+    {
+      "id": "4",
+      "name": "Python",
+      "level": "Advanced",
+      "category": "Programming"
+    },
+    {
+      "id": "5",
+      "name": "AWS",
+      "level": "Intermediate",
+      "category": "Cloud"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "E-commerce Platform",
+      "description": "Full-stack e-commerce solution with React frontend and Node.js backend",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Stripe"
+      ],
+      "url": "https://example-ecommerce.com",
+      "github": "https://github.com/sarahjohnson/ecommerce",
+      "startDate": "2023-01",
+      "endDate": "2023-06"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "1",
+      "name": "AWS Certified Developer",
+      "issuer": "Amazon Web Services",
+      "date": "2023-03",
+      "url": "https://aws.amazon.com/certification/"
+    }
+  ],
+  "id": "resume_1751037217463",
+  "last_updated": "2025-06-27T20:43:37.779682",
+  "version": "1.0"
+}
