@@ -238,7 +238,7 @@ function App() {
                 <button
                   onClick={async () => {
                     try {
-                      const response = await fetch(`${import.meta.env.VITE_API_URL}/save-resume`, {
+                      const response = await fetch('${import.meta.env.VITE_API_URL}/save-resume', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
