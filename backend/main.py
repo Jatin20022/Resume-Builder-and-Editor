@@ -117,7 +117,7 @@ async def ai_enhance(request: AIEnhanceRequest):
         if section == "summary":
             enhancements = AI_ENHANCEMENTS["summary"]
             if not any(prefix.lower() in content.lower() for prefix in enhancements["prefixes"]):
-                prefix = enhancements["prefixes"][hash(content) % len(enhancements["prefixes"])]
+                prefix = enhancements["prefixes"][abs(hash(content)) % len(enhancements["prefixes"])]
                 enhanced_content = f"{prefix} {content.lower()}"
             improvement = enhancements["improvements"][hash(content) % len(enhancements["improvements"])]
             enhanced_content += f" {improvement}."
