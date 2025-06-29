@@ -18,7 +18,7 @@ const SummarySection: React.FC<SummarySectionProps> = ({ summary, onChange }) =>
 
     setEnhancing(true);
     try {
-      const response = await fetch('${import.meta.env.VITE_API_URL}/ai-enhance', {
+      const response = await fetch('http://localhost:8000/ai-enhance', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
